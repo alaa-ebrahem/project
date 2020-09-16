@@ -1,3 +1,45 @@
 .caption h1{
     color: blue;
 }
+#pricing
+{
+    background-color: #f7f7f7;
+    padding: 60px 0;
+    
+}
+.price-item
+{
+    background-color: #fff;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.05);
+}
+.price
+{
+    width: 80%;
+    margin: auto;
+}
+.price:hover .shad
+{
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.05);
+}
+.price h3
+{
+    font-size: 55px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.price h3 span
+{
+    font-size: 18px;
+    font-weight: 400;
+    vertical-align: top;
+}
+.active
+{
+    z-index: 20;
+    transform: scale(1.08);
+}
+.active h3
+{
+    color: #00c3da;
+}
